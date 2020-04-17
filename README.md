@@ -1,4 +1,4 @@
 # A Simple Note App
  A Very simple note app
-# Live
+# Demo
  Live Demo [here](https://very-simple-note-app.netlify.app)
