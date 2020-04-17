@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+body {
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+  background-size: cover;
+  background-position: center;
+
+  min-height: 100vh;
+  padding: 5px;
+}
+
+/* To-Dos */
+
+.container {
+  min-width: 400px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Add Note */
+
+.addNote {
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  margin-bottom: 2px;
+  padding: 3%;
+  color: #222;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 1%;
+}
+
+.addNote h1 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.addNote .important {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.addNote .addtext {
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  background: none;
+}
+
+/* To-Do Item */
+.note {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  margin-bottom: 2px;
+  padding: 3%;
+  color: #222;
+  font-family: "Lucida Sans", sans-serif;
+  border-radius: 1%;
+}
+
+.note input {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  border: none;
+  background: none;
+}
+
+.note .delete {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.note .edit {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* color css */
+
+.colorDiv {
+  display: grid;
+  grid-template-columns: 1fr 11fr;
+  padding: 3%;
+  color: #222;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 1%;
+  align-items: center;
+}
+
+.colorDiv h1 {
+  font-size: 16px;
+  font-weight: 600;
+  justify-self: center;
+}
+
+.colors {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.colors button {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+}
