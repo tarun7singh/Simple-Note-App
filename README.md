@@ -1,2 +1,2 @@
-# very-simple-note-app
- Very simple note app
+# A Simple Note App
+ A Very simple note app
